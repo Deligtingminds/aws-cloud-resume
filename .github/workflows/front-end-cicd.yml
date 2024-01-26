@@ -2,9 +2,8 @@ name : Upload website to S3
 
 on:
     push:
-        branches
+        branches:
         - main
-        
         jobs:
             deploy:
                 runs-on: unbuntu-latest
