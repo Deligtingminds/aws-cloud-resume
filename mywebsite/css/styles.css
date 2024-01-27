@@ -3477,7 +3477,7 @@ input[type="button"].btn--primary:focus {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(360deg, rgb(33, 32, 32) 15%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(360deg, rgb(61, 58, 58) 15%, rgba(0, 0, 0, 0) 100%);
     opacity: .4;
 }
 
@@ -3500,7 +3500,7 @@ input[type="button"].btn--primary:focus {
     font-weight: 600;
     letter-spacing: -.04em;
     line-height: 1;
-    color: white;
+    color: rgb(250, 242, 242);
     margin-top: 0;
     margin-bottom: 0;
 }
