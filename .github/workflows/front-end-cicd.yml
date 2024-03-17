@@ -20,8 +20,7 @@ jobs:
         AWS_REGION: 'us-east-1'
         SOURCE_DIR: 'mywebsite'
        
-       
-        - name: Invalidate CloudFront
+      - name: Invalidate CloudFront
         uses: chetan/invalidate-cloudfront-action@v2
         env:
           DISTRIBUTION: ${{ secrets.DISTRIBUTION }}
