@@ -230,6 +230,33 @@ ul#nav li.current a { color: #c6490f; }
    font-size: 20px;
 }
 
+#s-about__content-bottom .btn--download {
+   background-color: rgb(221, 24, 24);
+   border-color: white;
+   color: black;
+   margin-right: 0;
+}
+
+#s-about__content-bottom .btn--download svg {
+   height: 2rem;
+   width: 2rem;
+   vertical-align: middle;
+   margin-right: 1.2rem;
+   -webkit-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+
+#s-about__content-bottom .btn--download:hover, 
+#s-about__content-bottom .btn--download:focus {
+   background-color: var(--color-2);
+   border-color: var(--color-2);
+}
+
+#s-about__content-bottom .btn--download:hover svg path, 
+#s-about__content-bottom .btn--download:focus svg path {
+   fill: white;
+}
+
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
