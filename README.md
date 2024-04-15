@@ -12,7 +12,11 @@ AWS Cloud Resume Challenge
 
 Resources
 
-Github Actions - https://github.com/chetan/invalidate-cloudfront-action/blob/develop/example.yml
+Github Actions Templates used 
+- https://docs.github.com/en/actions
+- https://github.com/chetan/invalidate-cloudfront-action/blob/develop/example.yml
+- 
+
   
 
 - 
