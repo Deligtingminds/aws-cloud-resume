@@ -1,20 +1,27 @@
 AWS Cloud Resume Challenge
 
-<
 
-# Intentions
+# Plan
 
-1. Carried on with the aws cloud resume Challenge 
-2. Had issues with setting up Lambda function to set a viewer count
-3. Created git hub repository to store files remotely 
-4. Set up git hub actions CI/CD to deploy front end 
-5. Wrote java script functionality to set up a viewer count in a js file and linked to my index.html file.
+1. Website created using a template from https://styleshout.com/free-templates/ceevee/
+2. Set up a Lambda function to set a viewer count using DynamoDB
+3. Includes java script functionality to set up a viewer count in a js file and linked to my index.html file.
+4. Created git hub repository to store files remotely -  Deligtingminds/aws-cloud-resume
+5. Set up git hub actions CI/CD to deploy front - this includes a cloudfront distribution code to refresh the cache everything i change any information on the index.html page
 
-# Happenings
+
+Resources
+
+Github Actions Templates used 
+- https://docs.github.com/en/actions
+- https://github.com/chetan/invalidate-cloudfront-action/blob/develop/example.yml
+- 
+
+  
 
 - 
 
 # Action items
 
-- [ ]  IAAC set up a terraform template to deploy to a cloud service
+- [ ]  IAAC set up a terraform template 
 - [ ]
